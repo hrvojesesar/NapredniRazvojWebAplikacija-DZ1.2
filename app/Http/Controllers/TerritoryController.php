@@ -81,6 +81,7 @@ class TerritoryController extends Controller
     public function destroy(Territory $territory)
     {
         $territory->delete();
+
         return redirect()->route('territory.index')
             ->with('success', 'Territory deleted successfully');
     }

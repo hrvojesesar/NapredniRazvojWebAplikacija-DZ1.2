@@ -13,8 +13,7 @@ class Territory extends Model
     public $timestamps = false;
     protected $fillable = [
         'TerritoryID',
-        'TerritoryDescription',
-        'RegionID'
+        'TerritoryDescription'
     ];
 
 

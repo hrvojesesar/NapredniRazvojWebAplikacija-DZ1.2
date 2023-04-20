@@ -22,3 +22,4 @@ Route::get('/', function () {
 Route::resource('region', RegionController::class);
 Route::resource('territory', TerritoryController::class);
 Route::resource('products', ProductController::class);
+
